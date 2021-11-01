@@ -1,0 +1,36 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bad_weather
+  - good_weather
+  - bot_challenge
+
+actions:
+  - action_great_weather
+
+responses:
+  utter_prompt:
+  - text: "Hi! How was the weather today?"
+
+  utter_good_weather_response:
+  - text: "Wow! It is nice that the weather is great" 
+
+  utter_bad_weather_response:
+  - text: "Aww, hopefully the weather gets better next time!" 
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

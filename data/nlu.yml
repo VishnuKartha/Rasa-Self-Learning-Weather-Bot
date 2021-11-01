@@ -1,0 +1,91 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - tata
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - Great!
+    - Cool
+    - that is amazing
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: bad_weather
+  examples: |
+    - The weather was terrible
+    - the weather was cloudy
+    - the weather was bad
+    - terrible
+    - cloudy
+    - bad
+    - rainy
+    - stormy
+    - there was a storm
+    - abysmal
+    - it could have been better
+    
+
+- intent: good_weather
+  examples: |
+    - the weather was good
+    - the weather was amazing
+    - the weather was dope
+    - cool
+    - pleasant
+    - good
+    - amazing
+    - nice
+    - the weather was nice
+    - perfect
+    
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
